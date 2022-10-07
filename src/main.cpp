@@ -1,12 +1,13 @@
 #include <cstdio>
 #include <iostream>
-#include "Controller.h"
+#include "System.h"
 
 int main() 
 {
 	printf("[Daniel] Hello PS4\n");
 	
-	Controller c = Controller();
+	System s = System();
+	s.CheckUsers();
 
 	printf("[Daniel] Good bye PS4 \n");
 }

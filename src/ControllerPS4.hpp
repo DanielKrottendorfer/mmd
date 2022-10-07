@@ -1,5 +1,6 @@
 #include <sceerror.h>
 #include "Controller.h"
+#include <pad.h>
 
 Controller::Controller()
 {
