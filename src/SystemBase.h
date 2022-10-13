@@ -4,7 +4,7 @@ class SystemBase
 {
 public:
 	// Platform-independent
-	size_t GetUserCount() const { return m_userCount; }
+	size_t GetUserCount() const { return m_numUsers; }
 	// Platform-specific interface
 	void CheckUsers()
 	{
